@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+
+body,
+html {
+    background-color: #FEFAE0;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    background-color: #283618;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+#navbar-container a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-inline: 15px;
+}
+
+
+/* Footer */
+Footer {
+    margin-top: 50px;
+    background-color: #283618;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 35px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #C8C9AE;
+    margin-inline: 2.5%;
+}
+
+.footer-logo img {
+    width: 220%;
+    height: auto;
+}
+
+.footer-container a {
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 3px;
+}
+
+/*  */
+.get-updates {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #909D81;
+    color: #FEFAE0;
+    border-radius: 30px;
+
+    --border-radius: 30px;
+}
+
+.get-updates label {
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.get-updates .input-container {
+    display: flex;
+}
+
+.get-updates .input-container input {
+    display: flex;
+    border: 3px #000000 solid;
+    padding: 15px 0;
+    display: inline-block;
+
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.get-updates .input-container input[type="text"] {
+    width: 300px;
+    color: #313144;
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+    padding-left: 20px;
+}
+
+.get-updates .input-container input[type="text"]::placeholder {
+    color: #313144;
+}
+
+
+.get-updates .input-container input[type="submit"] {
+    background-color: #283618;
+    color: #C8C9AE;
+    width: 100px;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.about-us-2,
+.about-us-1 {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.find-us img {
+    width: 35px;
+    height: 35px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-gap: 5px;
+}
+
+/* profile */
+
+#profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 330px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#profile img {
+    height: 100%;
+    margin-left: 103px;
+}
+
+#profile .details {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+#profile .details h2 {
+    font-family: "Orelega One";
+    font-size: 80px;
+    margin: 0px;
+    color: #283618;
+}
+
+#profile .left_right {
+    width: 100%;
+    display: flex;
+    font-family: 'Inter';
+    color: #283618;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#profile .left_right .info {
+    display: flex;
+    margin-right: 30px;
+    text-align: left;
+}
+
+#profile .details .left_right .left {
+    display: flex;
+    margin-right: 50px;
+}
+
+#profile .details .left_right .right {
+    display: flex;
+}
+
+#profile .details .left_right ul {
+    padding: 0px;
+}
+
+#profile .details .left_right li {
+    list-style-type: none;
+}
+
+#profile .details .title {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#profile .details .text {
+    font-weight: lighter;
+    margin-right: 20px;
+}
+
+#profile .adoptMe {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+#profile .adoptMe button {
+    height: 45px;
+    font-family: "Orelega One";
+    font-size: 18px;
+    padding: 7px 50px 7px 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #283618;
+    color: #FEFAE0;
+    margin-right: 20px;
+    transition-duration: 0.2s;
+}
+
+#profile .adoptMe button:hover {
+    cursor: pointer;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px lightgray;
+}
+
+#profile .adoptMe button:active {
+    margin-bottom: 2px;
+    box-shadow: 2px 2px gray;
+}
+
+#profile .adoptMe p {
+    font-family: "Orelega One";
+    color: #283618;
+}
+
+/* pet info */
+#pet_info {
+    width: 72%;
+    height: 180px;
+    border-color: #283618;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#pet_info ul {
+    display: flex;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#pet_info li {
+    margin-right: 60px;
+    list-style-type: none;
+}
+
+#pet_info .title {
+    font-family: "Orelega One";
+    font-size: 25px;
+    font-weight: bold;
+    color: #283618;
+    margin-bottom: 10px;
+}
+
+#pet_info li {
+    font-family: "Inter";
+    font-style: italic;
+}
+
+#pet_info .i_am li i {
+    color: #879360;
+    margin-right: 5px;
+}
+
+#pet_info .but_i_am li i {
+    color: #D92926;
+    margin-right: 10px;
+}
+
+/* pet desc */
+#pet_desc {
+    width: 72%;
+    height: 170px;
+    border-color: #283618;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#pet_desc .title {
+    font-family: "Orelega One";
+    font-size: 25px;
+    font-weight: bold;
+    color: #283618;
+    margin-bottom: 5px;
+}
+
+/* buttons */
+#buttons {
+    display: flex;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+
+#buttons button {
+    height: 50px;
+    width: 230px;
+    padding: 7px 20px 7px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+#buttons .back {
+    margin-right: 30px;
+    background-color: #283618;
+    border: none;
+    transition-duration: 0.2s;
+}
+
+#buttons .back a {
+    display: block;
+    width: 100%;
+    color: #FEFAE0;
+    text-decoration: none;
+    font-family: "Orelega One";
+    font-size: 23px;
+}
+
+#buttons .fav {
+    margin-right: 30px;
+    background-color: #697D51;
+    color: #FEFAE0;
+    font-family: "Orelega One";
+    font-size: 23px;
+    border: none;
+    transition-duration: 0.2s;
+}
+
+#buttons .back:hover,
+.fav:hover {
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px lightgray;
+}
+
+#buttons .back:active,
+.fav:active {
+    margin-bottom: 5px;
+    box-shadow: 2px 2px gray;
+}

@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+
+body,
+html {
+    background-color: #FEFAE0;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    background-color: #283618;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+#navbar-container a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-inline: 15px;
+}
+
+
+/* Footer */
+Footer {
+    /* Temporary Margin */
+    margin-top: 200px;
+    background-color: #283618;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 35px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #C8C9AE;
+    margin-inline: 2.5%;
+}
+
+.footer-logo img {
+    width: 220%;
+    height: auto;
+}
+
+.footer-container a {
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 3px;
+}
+
+/*  */
+.get-updates {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #909D81;
+    color: #FEFAE0;
+    border-radius: 30px;
+
+    --border-radius: 30px;
+}
+
+.get-updates label {
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.get-updates .input-container {
+    display: flex;
+}
+
+.get-updates .input-container input {
+    display: flex;
+    border: 3px #000000 solid;
+    padding: 15px 0;
+    display: inline-block;
+
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.get-updates .input-container input[type="text"] {
+    width: 300px;
+    color: #313144;
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+    padding-left: 20px;
+}
+
+.get-updates .input-container input[type="text"]::placeholder {
+    color: #313144;
+}
+
+
+.get-updates .input-container input[type="submit"] {
+    background-color: #283618;
+    color: #C8C9AE;
+    width: 100px;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.about-us-2,
+.about-us-1 {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.find-us img {
+    width: 35px;
+    height: 35px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-gap: 5px;
+}
+
+/* START HERE */
+
+.color-green {
+    color: #283618;
+}
+
+#container {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: row;
+
+    margin-inline: 9%;
+}
+
+#profile-container,
+#diet-plans {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+    width: 593px;
+    height: 780px;
+
+    background-color: white;
+    border-radius: 10px;
+
+    margin-top: 120px;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.profile-banner {
+    width: 593px;
+    height: 307px;
+}
+
+.profile-picture img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+}
+
+.profile-picture img:hover {
+    transform: scale(1.05);
+}
+
+#profile-name {
+    display: flex;
+
+    align-items: center;
+    flex-direction: row;
+    font-size: 46px;
+    margin-block: 40px;
+}
+
+#profile-name img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#profile-name p {
+    font-family: 'Orelega One';
+}
+
+#profile-name img {
+    width: 55px;
+    height: auto;
+}
+
+#profile-info .align {
+    display: flex;
+}
+
+#profile-info hr {
+    margin-block: 10px;
+}
+
+#communities p,
+#Favourite p,
+#Rehome p,
+#diet-plans p {
+    font-size: 3.19vw;
+    font-family: 'Orelega One';
+    padding: 30px;
+}
+
+.align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 389.26px;
+    font-size: 21.51px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.row img {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 3px;
+    margin-block: 10px;
+
+    transition: 0.2s;
+}
+
+.row img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.row-class {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 5%;
+    margin-block: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seperator {
+    margin-top: 60px;
+}
+
+/* Reference : https://codepen.io/dazar-dev/pen/QWNyKMO */
+.Weekly-Update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.2s;
+}
+
+.Weekly-Update:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    top: 10%;
+}
+
+.Squeaky,
+.JJ,
+.Bob,
+.Billy,
+.Whisker {
+    position: relative;
+}
+
+.button-week {
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 14px;
+
+    color: #283618;
+    background-color: #FEFAE0;
+
+
+    position: absolute;
+    bottom: 40px;
+
+    padding: 14px 80px;
+    border-radius: 30px;
+}
+
+.like {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+
+    cursor: pointer;
+}
+
+#heart1,
+#heart2,
+#heart3 {
+    display: none;
+}
+
+#Eheart1,
+#Eheart2,
+#Eheart3 {
+    display: flex;
+}
+
+.communityFrame {
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    transition: 0.2s;
+}
+
+.communityFrame a {
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+}
+
+.communityFrame h3 {
+    font-size: 32px;
+    font-family: 'Orelega One';
+    color: #FEFAE0;
+    font-weight: 500;
+}
+
+.communityFrame h2 {
+    font-size: 16px;
+    color: #FEFAE0;
+    font-weight: 200;
+    padding: 2px;
+}
+
+.communityFrame img {
+    border-radius: 30px 30px 0px 0px;
+}
+
+.communityFrame:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 410px;
+    height: 100px;
+
+    background-color: #283618;
+    border-radius: 0px 0px 28px 28px;
+}

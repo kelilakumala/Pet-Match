@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+
+body,
+html {
+    background-color: #fefae0;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    background-color: #283618;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+#navbar-container a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-inline: 15px;
+}
+
+.heading-pic-wrapper {
+    display: flex;
+    height: 70vh;
+    width: 100%;
+
+    /* background-color: red; */
+}
+
+.heading-pic {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+
+.heading-pic img {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    width: 100%;
+    height: 300px;
+}
+
+.diet-plan-heading {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    width: 100%;
+    height: auto;
+}
+
+.diet-plan-heading h1 {
+    color: #283618;
+    font-size: 130px;
+    font-family: Orelega One;
+    text-align: center;
+}
+
+.diet-plan-heading p {
+    font-size: 30px;
+    color: #283618;
+}
+
+.searchbar {
+    padding-top: 30px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-input {
+    padding: 10px 100px;
+    font-size: 16px;
+    border: 1.5px solid #697d51;
+    border-radius: 10px;
+}
+
+#search-button {
+    padding: 10px 40px;
+    background-color: #697d51;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#search-button:hover {
+    background-color: #283618;
+}
+
+#optionbutton:hover {
+    transform: scale(1.1);
+}
+
+.dropdown {
+    padding-right: 10px;
+}
+
+select {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 90%;
+    margin: 30px auto 30px;
+    /* border: 1px solid red; */
+}
+
+.content .main-content {
+    margin: 30px;
+    width: 100%;
+    float: left;
+    /* border-bottom: 2px solid #283618; */
+}
+
+.content .main-content .diet-plan {
+    width: 95%;
+    height: 270px;
+    margin: 10px auto;
+    border-radius: 5px;
+    /* background-color: white; */
+}
+
+.content .main-content .diet-plan img {
+    border-radius: 20px;
+    object-position: -20% 0;
+    object-fit: cover;
+}
+
+.content .main-content .diet-plan .dietimg {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.content .main-content .diet-plan .diet-plan-preview {
+    padding: 10px;
+    width: 75%;
+    float: right;
+}
+
+.title {
+    width: 100%;
+    /* height: 50px; */
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title h1 {
+    font-family: "Orelega One", cursive;
+    font-size: 45px;
+    font-weight: 500;
+    color: #283618;
+}
+
+.title p {
+    font-size: 20px;
+    color: #283618;
+}
+
+.item {
+    justify-content: end;
+    width: 50%;
+    height: fit-content;
+    /* background-color: #d31919; */
+    display: flex;
+}
+
+.catagory {
+    border: 2px solid #283618;
+    border-radius: 20px;
+    padding: 10px 30px;
+    /* background-color: red; */
+    margin: 10px;
+}
+
+.content .main-content .diet-plan .diet-plan-preview .preview-text {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #283618;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Footer */
+Footer {
+    /* Temporary Margin */
+    margin-top: 100px;
+    background-color: #283618;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 35px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #c8c9ae;
+    margin-inline: 2.5%;
+}
+
+.footer-logo img {
+    width: 220%;
+    height: auto;
+}
+
+.footer-container a {
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 3px;
+}
+
+/*  */
+.get-updates {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #909d81;
+    color: #fefae0;
+    border-radius: 30px;
+
+    --border-radius: 30px;
+}
+
+.get-updates label {
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.get-updates .input-container {
+    display: flex;
+}
+
+.get-updates .input-container input {
+    display: flex;
+    border: 3px #000000 solid;
+    padding: 15px 0;
+    display: inline-block;
+
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.get-updates .input-container input[type="text"] {
+    width: 300px;
+    color: #313144;
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+    padding-left: 20px;
+}
+
+.get-updates .input-container input[type="text"]::placeholder {
+    color: #313144;
+}
+
+.get-updates .input-container input[type="submit"] {
+    background-color: #283618;
+    color: #c8c9ae;
+    width: 100px;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.about-us-2,
+.about-us-1 {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.find-us img {
+    width: 35px;
+    height: 35px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-gap: 5px;
+}
+
+hr{
+    border: 1px solid #283618;
+}
