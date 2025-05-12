@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="../assets/css/user-page.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div>
+            <a href="../pages/index.html"><img src="../assets/LogoIcons/logo.png" alt="LOGO"></a>
+        </div>
+        <div id="navbar-container">
+            <a href="../pages/index.html">Home</a>
+            <a href="../pages/article.html">Articles</a>
+            <a href="../pages/product-page.html">Products</a>
+            <a href="../pages/community.html">Community</a>
+            <a id="nav-profile" href="../pages/login.html">Login</a>
+        </div>
+    </nav>
+
+
+    <section>
+        <div id="container">
+            <div id="profile-container">
+                <div class="profile-banner"><img src="../assets/UserPage/banner.png" alt=""></div>
+                <div class="profile-picture"><img src="../assets/UserPage/Group 45.png"> </div>
+                <div id="profile-name">
+                    <p class="color-green">Samantha Pine</p>
+                    <img src="../assets/UserPage/pencilEdit.png" alt="">
+                </div>
+                <div id="profile-info">
+                    <div class="align">
+                        <p>Username</p>
+                        <p>dogLover49</p>
+                    </div>
+                    <hr>
+                    <div class="align">
+                        <p>Age</p>
+                        <p>21</p>
+                    </div>
+                    <hr>
+                    <div class="align">
+                        <p>E-mail</p>
+                        <p>samanthapine@gmail.com</p>
+                    </div>
+                    <hr>
+                    <div class="align">
+                        <p>Phone</p>
+                        <p>081234567890</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="diet-plans">
+                <p class="color-green">Your Pet's Diet Plans</p>
+                <div class="row">
+                    <a href="../pages/diet-page.html"> <img src="../assets/UserPage/First.png" alt=""></a>
+                    <a href="../pages/diet-page.html"> <img src="../assets/UserPage/Second.png" alt=".."></a>
+                    <a href="../pages/diet-page.html"><img src="../assets/UserPage/Find new.png" alt=""></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section>
+        <div id="Rehome" class="middle">
+            <p class="seperator">Pets You Re-Homed</p>
+            <div class="row-class">
+                <div class="Billy">
+                    <img src="../assets/UserPage/Billy.png">
+                    <div class="Weekly-Update">
+                        <a href="../pages/pet-profile.html" class="button-week">Weekly Updates</a>
+                    </div>
+                </div>
+                <div class="Whisker">
+                    <img src="../assets/UserPage/whiskers.png" alt="">
+                    <div class="Weekly-Update">
+                        <a href="../pages/pet-profile.html" class="button-week">Weekly Updates</a>
+                    </div>
+                </div>
+                <div class="Add-pet">
+                    <a href="../pages/rehome.html"><img src="../assets/UserPage/Add.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="Favourite" class="middle">
+            <p class="seperator">Your Favourite Pets</p>
+            <div class="row-class">
+                <div class="Squeaky">
+                    <img src="../assets/UserPage/squeaky.png" alt="">
+                    <div class="like" id="heart1">
+                        <img src="../assets/UserPage/FavouriteHeart.png" onclick="like1()">
+                    </div>
+                    <div class="like" id="Eheart1">
+                        <img src="../assets/UserPage/EmptyHeart.png" onclick="like1()" alt="">
+                    </div>
+                </div>
+                <div class="JJ">
+                    <img src="../assets/UserPage/jack & jill.png" alt="">
+
+                    <div class="like" id="heart2">
+                        <img src="../assets/UserPage/FavouriteHeart.png" onclick="like2()">
+                    </div>
+                    <div class="like" id="Eheart2">
+                        <img src="../assets/UserPage/EmptyHeart.png" onclick="like2()" alt="">
+                    </div>
+                </div>
+                <div class="Bob">
+                    <img src="../assets/UserPage/bob.png" alt="">
+                    <div class="like" id="heart3">
+                        <img src="../assets/UserPage/FavouriteHeart.png" onclick="like3()">
+                    </div>
+                    <div class="like" id="Eheart3">
+                        <img src="../assets/UserPage/EmptyHeart.png" onclick="like3()" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="communities" class="middle">
+            <p class="seperator">Your Communities</p>
+            <div class="row-class">
+                <div class="communityFrame">
+                    <a href="../pages/community.html"><img src="../assets/UserPage/TangerangDogo.png" alt="">
+                        <div class="background">
+                            <h3>Tangerang Doggos</h3>
+                            <h2>2.475k Members</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="communityFrame">
+                    <a href="../pages/community.html"><img src="../assets/UserPage/GirlPet.png" alt="">
+                        <div class="background">
+                            <h3>Pet Ladies</h3>
+                            <h2>1.2m Members</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="communityFrame">
+                    <a href="../pages/community.html">
+                        <img src="../assets/UserPage/CatWhisperer.png" alt="">
+                        <div class="background">
+                            <h3>Cat Whisperer</h3>
+                            <h2>3.65k Members</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div id="footer-logo">
+            <img src="../assets/LogoIcons/Footer-Logo.png" alt="LOGO">
+        </div>
+
+        <div class="footer-container">
+            <div class="about-us-1">
+                <a>Abous us</a>
+                <a>FAQs</a>
+                <a>Mobile App Download</a>
+                <a>Partnership</a>
+                <a>Contact Us</a>
+            </div>
+
+            <div class="about-us-2">
+                <a>Adopt</a>
+                <a>Community</a>
+                <a>Donate</a>
+                <a>Get Involved</a>
+                <a>Articles</a>
+            </div>
+
+            <div class="find-us">
+                <h3>Find us on...</h3>
+                <br>
+                <div class="social-media">
+                    <img src="../assets/SocialMedia/Facebook - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/Twitter - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/Instagram - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/TikTok - Negative.png" alt="">
+                </div>
+            </div>
+
+            <div class="get-updates">
+                <label for="input-label">Join our family to get our latest udpdates.</label>
+                <div class="input-container">
+                    <input type="text" placeholder="Enter E-Mail" id="enter-email">
+                    <input type="submit" value="Sign up">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="../js/main.js"></script>
+<script src="../js/userpage.js"></script>
+
+</html>

@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../assets/css/signup.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div>
+            <a href="../pages/index.html"><img src="../assets/LogoIcons/logo.png" alt="LOGO"></a>
+        </div>
+    </nav>
+    <!-- MAIN BODY HERE -->
+    <div class="main">
+        <div class="image-container">
+            <img class="background-image" src="../assets/LoginSignupPage/Puppies.png" alt="Puppy background">
+        </div>
+        <div class="form-background">
+            <div class="form-container">
+                <h1>Register</h1>
+                <form>
+                    <div class="horizontal-field">
+                        <div class="field-container">
+                            <label for="fname">First name</label>
+                            <input type="text" id="fname" name="fname" placeholder="First Name">
+                        </div>
+                        <div class="field-container">
+                            <label for="lname">Last name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="field-container">
+                        <label for="email">Email Address</label>
+                        <input type="text" id="email" name="email" placeholder="username@domain.com">
+                    </div>
+                    <div class="field-container">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Minimum 8 Characters">
+                    </div>
+                    <div class="horizontal-field">
+                        <div class="field-container">
+                            <label for="age">Age</label>
+                            <input type="date" id="age" name="age">
+                        </div>
+                        <input type="submit" value="Sign up" onclick="signupB(event)">
+                    </div>
+                    <p>Have an account? Login <a href="../pages/login.html">here</a>.</p>
+                    <p id="err-msg"></p>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

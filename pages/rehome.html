@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-Home</title>
+    <link rel="stylesheet" href="../assets/css/rehome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <script src="../js/Rehome.js"></script>
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div>
+            <a href="../pages/index.html"><img src="../assets/LogoIcons/logo.png" alt="LOGO"></a>
+        </div>
+        <div id="navbar-container">
+            <a href="../pages/index.html">Home</a>
+            <a href="../pages/article.html">Articles</a>
+            <a href="../pages/product-page.html">Products</a>
+            <a href="../pages/community.html">Community</a>
+            <a id="nav-profile" href="../pages/login.html">Login</a>
+        </div>
+    </nav>
+
+    <div>
+        <div class="selectioncontainer">
+            <div class="types">
+                <a href="#" onclick="showDogs()"><img src="../assets/ProductPageRehome/Dog Button.png" alt=""
+                        height="130px" id="button"></a>
+                <a href="#" onclick="showCats()"><img src="../assets/ProductPageRehome/Cat Button.png" alt=""
+                        height="130px" id="button"></a>
+                <a href="#" onclick="showRabbits()"><img src="../assets/ProductPageRehome/Rabit Button.png" alt=""
+                        height="130px" id="button"></a>
+                <a href="#" onclick="showOthers()"><img src="../assets/ProductPageRehome/Other Pet button.png" alt=""
+                        height="130px" id="button"></a>
+            </div>
+            <div class="searchbar">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search for your dream pet">
+                    <button type="submit" id="search-button">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="resultcontainer" id="resultcontainer">
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/max.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Lily.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Bailey.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Bella.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Dean.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Maxy.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Libby.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Oliver.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Sadle.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Sophie.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Lucy.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Teddy.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="resultcontainercat" id="resultcontainercat">
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Cody.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Lucy-cat.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Cathy.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Helly.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Keith.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Chrowy.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Snow.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/KED.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Ted.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Ben.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Kenny.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Tina.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="resultcontainerrabbit" id="resultcontainerrabbit">
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/gerry.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Swiper.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Terry.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Hound.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/George.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Max _ ruby.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Snorlax.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Pikachu.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Josh.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Piplup.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Ben-rabbit.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Shiny.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="resultcontainerothers" id="resultcontainerothers">
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Zhongli.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Razor.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Kokomi.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Childe.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/rupee.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Yen.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Won.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Yuan.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="productcontainer">
+                <div class="productrow">
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Luigy.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Mario.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Peach.png" alt="">
+                    </div>
+                    <div class="product">
+                        <img src="../assets/ProductPageRehome/Rocky.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer id="footer">
+        <div id="footer-logo">
+            <img src="../assets/LogoIcons/Footer-Logo.png" alt="LOGO">
+        </div>
+
+        <div class="footer-container">
+            <div class="about-us-1">
+                <a>Abous us</a>
+                <a>FAQs</a>
+                <a>Mobile App Download</a>
+                <a>Partnership</a>
+                <a>Contact Us</a>
+            </div>
+
+            <div class="about-us-2">
+                <a>Adopt</a>
+                <a>Community</a>
+                <a>Donate</a>
+                <a>Get Involved</a>
+                <a>Articles</a>
+            </div>
+
+            <div class="find-us">
+                <h3>Find us on...</h3>
+                <br>
+                <div class="social-media">
+                    <img src="../assets/SocialMedia/Facebook - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/Twitter - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/Instagram - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/TikTok - Negative.png" alt="">
+                </div>
+            </div>
+
+            <div class="get-updates">
+                <label for="input-label">Join our family to get our latest udpdates.</label>
+                <div class="input-container">
+                    <input type="text" placeholder="Enter E-Mail" id="enter-email">
+                    <input type="submit" value="Sign up">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="../js/main.js"></script>
+
+</html>

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="../assets/css/product-page.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;800&family=Orelega+One&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="../js/productpage.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div>
+            <a href="../pages/index.html"><img src="../assets/LogoIcons/logo.png" alt="LOGO"></a>
+        </div>
+        <div id="navbar-container">
+            <a href="../pages/index.html" onclick="">Home</a>
+            <a href="../pages/article.html">Articles</a>
+            <a href="../pages/product-page.html">Products</a>
+            <a href="../pages/community.html">Community</a>
+            <a id="nav-profile" href="../pages/login.html">Login</a>
+        </div>
+    </nav>
+
+    <div>
+        <div class="selectioncontainer">
+            <br><br><br>
+            <h1>Pet Goods</h1>
+            <br>
+            <div class="filterbar">
+                <div class="Toys" onclick="showToys()" id="optionbutton">Toys</div>
+                <div class="Food" onclick="showFoods()" id="optionbutton">Foods</div>
+                <div class="Vitamins" onclick="showVitamins()" id="optionbutton">Vitamins</div>
+                <div class="Outfits" onclick="showOutfits()" id="optionbutton">Outfits</div>
+                <div class="others" onclick="showOthers()" id="optionbutton">Others</div>
+
+
+            </div>
+            <div class="searchbar">
+                <div class="search-container">
+                    <div class="dropdown">
+                        <select id="animals">
+                            <option value="dog">Dog</option>
+                            <option value="cat">Cat</option>
+                            <option value="rabbit">Rabbit</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                    <input type="text" id="search-input" placeholder="Search for your dream pet">
+                    <button type="submit" id="search-button">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="Toyspage" id="Toyspage">
+            <div class="goodscontainer">
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/StuffedToysPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Stuffed Toys</div>
+                        <div class="productPrice">Rp 110.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/DogChewBallPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Dog Chew Ball</div>
+                        <div class="productPrice">Rp 60.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/TennisPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Tennis Blaster</div>
+                        <div class="productPrice">Rp 310.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/ZebraPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Stuffed Zebra Chew Toy</div>
+                        <div class="productPrice">Rp 90.000</div>
+                    </div>
+                </div>
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/ElectronicDogPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Electronic Interactive Dog</div>
+                        <div class="productPrice">Rp 255.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/BallBekelPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Ball Bekel Toy</div>
+                        <div class="productPrice">Rp 30.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/CarrotPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Rubber Carrot</div>
+                        <div class="productPrice">Rp 70.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/AvocadoPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Avocado Mat</div>
+                        <div class="productPrice">Rp 230.000</div>
+                    </div>
+                </div>
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/BonePicOnly.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Dog Chew Bone</div>
+                        <div class="productPrice">Rp 150.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/DogPuzzlePicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Dog Puzzle Feeder</div>
+                        <div class="productPrice">Rp 210.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/DogRopePicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Dog Rope Chewer</div>
+                        <div class="productPrice">Rp 150.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/DogToySniffingPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Dog-Sniffing Feeder</div>
+                        <div class="productPrice">Rp 250.000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Foodpage" id="Foodpage">
+            <div class="goodscontainer">
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/happydogpiconly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Happy Dog Sensible</div>
+                        <div class="productPrice">Rp 210.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/PedigreePicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Pedigree</div>
+                        <div class="productPrice">Rp 320.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/BakersPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Bakers</div>
+                        <div class="productPrice">Rp 420.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/PurinaOnePicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Purina One</div>
+                        <div class="productPrice">Rp 356.000</div>
+                    </div>
+                </div>
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/GrainZeroPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Grain Zero</div>
+                        <div class="productPrice">Rp 555.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/BullyMaxPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Bully Max</div>
+                        <div class="productPrice">Rp 450.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/RoyalCaninePic.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Royal Canine</div>
+                        <div class="productPrice">Rp 330.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/CesarPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Cesar</div>
+                        <div class="productPrice">Rp 510.000</div>
+                    </div>
+                </div>
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/KibblesPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Kibblese</div>
+                        <div class="productPrice">Rp 430.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/PetLinePicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">PetLine</div>
+                        <div class="productPrice">Rp 230.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/SundaysPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Sundays</div>
+                        <div class="productPrice">Rp 210.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/DogChoizePicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Dog Choize</div>
+                        <div class="productPrice">Rp 410.000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Vitaminspage" id="Vitaminspage">
+            <div class="goodscontainer">
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/Well_Good.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Well & Good</div>
+                        <div class="productPrice">Rp 310.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/Multivitamin.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Multivitamin</div>
+                        <div class="productPrice">Rp 230.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/HAPPYDOGMINI.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">HAPPY DOG MINI</div>
+                        <div class="productPrice">Rp 415.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/Dinovite.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Dinovite</div>
+                        <div class="productPrice">Rp 550.000</div>
+                    </div>
+                </div>
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/ZestyPaws.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Zesty Paws</div>
+                        <div class="productPrice">Rp 219.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/Dogsultra.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Dogs Ultra</div>
+                        <div class="productPrice">Rp 210.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/NaturVetCalciumm.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Natur Vet Calcium</div>
+                        <div class="productPrice">Rp 350.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/Natural.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Natural</div>
+                        <div class="productPrice">Rp 260.000</div>
+                    </div>
+                </div>
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/Omega.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Omega</div>
+                        <div class="productPrice">Rp 190.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/NatureBest.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Nature Best</div>
+                        <div class="productPrice">Rp 280.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/PetHonesty.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Pet PetHonesty</div>
+                        <div class="productPrice">Rp 290.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/happydogpiconly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Happy Dog Sensible</div>
+                        <div class="productPrice">Rp 213.000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Outfitspage" id="Outfitspage">
+            <div class="goodscontainer">
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/GladiatorCostume.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Gladiator</div>
+                        <div class="productPrice">Rp 230.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/HAlloweenCostume.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Halloween</div>
+                        <div class="productPrice">Rp 215.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/HotdogCostume.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Hotdog</div>
+                        <div class="productPrice">Rp 299.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/ChristmasOutfit.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Christmas Outfit</div>
+                        <div class="productPrice">Rp 310.000</div>
+                    </div>
+                </div>
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/StarWarsYodaCostume.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Starwars Yoda</div>
+                        <div class="productPrice">Rp 280.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/Hocus Pocus.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Hocus Pocus</div>
+                        <div class="productPrice">Rp 440.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/ArmyCostume.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Army</div>
+                        <div class="productPrice">Rp 160.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/DinoCostume.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Dino</div>
+                        <div class="productPrice">Rp 240.000</div>
+                    </div>
+                </div>
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/HarryPotterCostume.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">HarryPotter</div>
+                        <div class="productPrice">Rp 450.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/CowboyOutfit.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">CowDog</div>
+                        <div class="productPrice">Rp 280.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/ChuckyConstume.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Chucky Dog</div>
+                        <div class="productPrice">Rp 310.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/HollyCostume.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Holy Priest</div>
+                        <div class="productPrice">Rp 280.000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Otherspage" id="Otherspage">
+            <div class="goodscontainer">
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/BonePicOnly.png" alt="" width="90%"
+                                class="pics"></div>
+                        <div class="productTitle">Dog Chew Bone</div>
+                        <div class="productPrice">Rp 150.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/DogPuzzlePicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Dog Puzzle Feeder</div>
+                        <div class="productPrice">Rp 210.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/DogRopePicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Dog Rope Chewer</div>
+                        <div class="productPrice">Rp 150.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/DogToySniffingPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Dog-Sniffing Feeder</div>
+                        <div class="productPrice">Rp 250.000</div>
+                    </div>
+                </div>
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/ElectronicDogPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Electronic Interactive Dog</div>
+                        <div class="productPrice">Rp 255.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/BallBekelPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Ball Bekel Toy</div>
+                        <div class="productPrice">Rp 30.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/CarrotPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Rubber Carrot</div>
+                        <div class="productPrice">Rp 70.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/AvocadoPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Avocado Mat</div>
+                        <div class="productPrice">Rp 230.000</div>
+                    </div>
+                </div>
+
+                <div class="goodsrow">
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/StuffedToysPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Stuffed Toys</div>
+                        <div class="productPrice">Rp 110.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/DogChewBallPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Dog Chew Ball</div>
+                        <div class="productPrice">Rp 60.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/TennisPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Tennis Blaster</div>
+                        <div class="productPrice">Rp 310.000</div>
+                    </div>
+                    <div class="goods">
+                        <div class="thumbnail"><img src="../assets/ProductPageRehome/ZebraPicOnly.png" alt=""
+                                width="90%" class="pics"></div>
+                        <div class="productTitle">Stuffed Zebra Chew Toy</div>
+                        <div class="productPrice">Rp 90.000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer id="footer">
+        <div id="footer-logo">
+            <img src="../assets/LogoIcons/Footer-Logo.png" alt="LOGO">
+        </div>
+
+        <div class="footer-container">
+            <div class="about-us-1">
+                <a>Abous us</a>
+                <a>FAQs</a>
+                <a>Mobile App Download</a>
+                <a>Partnership</a>
+                <a>Contact Us</a>
+            </div>
+
+            <div class="about-us-2">
+                <a>Adopt</a>
+                <a>Community</a>
+                <a>Donate</a>
+                <a>Get Involved</a>
+                <a>Articles</a>
+            </div>
+
+            <div class="find-us">
+                <h3>Find us on...</h3>
+                <br>
+                <div class="social-media">
+                    <img src="../assets/SocialMedia/Facebook - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/Twitter - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/Instagram - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/TikTok - Negative.png" alt="">
+                </div>
+            </div>
+
+            <div class="get-updates">
+                <label for="input-label">Join our family to get our latest udpdates.</label>
+                <div class="input-container">
+                    <input type="text" placeholder="Enter E-Mail" id="enter-email">
+                    <input type="submit" value="Sign up">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="../js/main.js"></script>
+
+</html>

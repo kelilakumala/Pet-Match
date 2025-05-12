@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet's Profile</title>
+    <link rel="stylesheet" href="../assets/css/pet-profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div>
+            <a href="../pages/index.html"><img src="../assets/LogoIcons/logo.png" alt="LOGO"></a>
+        </div>
+        <div id="navbar-container">
+            <a href="../pages/index.html">Home</a>
+            <a href="../pages/article.html">Articles</a>
+            <a href="../pages/product-page.html">Products</a>
+            <a href="../pages/community.html">Community</a>
+            <a id="nav-profile" href="../pages/login.html">Login</a>
+        </div>
+    </nav>
+
+    <!-- profile -->
+    <div id="profile">
+        <img src="../assets/images/manny.png">
+        <div class="details">
+            <h2>Hi, I'm Manny</h2>
+            <div class="left_right">
+                <div class="left">
+                    <ul class="title">
+                        <li>Type</li>
+                        <li>Breed</li>
+                        <li>Sex</li>
+                        <li>Age</li>
+                    </ul>
+                    <ul class="text">
+                        <li>Dog</li>
+                        <li>Siberian Husky</li>
+                        <li>Male</li>
+                        <li>2 years</li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul class="title">
+                        <li>Color</li>
+                        <li>Weight</li>
+                        <li>Pet ID</li>
+                    </ul>
+                    <ul class="text">
+                        <li>White-Black</li>
+                        <li>25 kg</li>
+                        <li>D3423</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="adoptMe">
+                <button>Adopt Me!</button>
+                <p>Adoption Fee: Rp 500.000</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- pet info -->
+    <div id="pet_info">
+        <div class="i_am">
+            <div class="title">I am...</div>
+            <ul>
+                <li><i class="fa fa-check"></i>Vaccinated</li>
+                <li><i class="fa fa-check"></i>Sterilized</li>
+                <li><i class="fa fa-check"></i>Friendly</li>
+                <li><i class="fa fa-check"></i>Good with kids</li>
+                <li><i class="fa fa-check"></i>Loyal</li>
+            </ul>
+        </div>
+        <div class="but_i_am">
+            <div class="title">But I am...</div>
+            <ul>
+                <li><i class="fa fa-flag"></i>Loud</li>
+                <li><i class="fa fa-flag"></i>Not good with cats</li>
+                <li><i class="fa fa-flag"></i>Difficult to feed</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="pet_desc">
+        <div class="title">Get to know me!</div>
+        <div class="text">
+            Meet Manny, the lovable Husky in need of a forever home! With captivating blue eyes and an adventurous
+            spirit, Manny is a two-year-old bundle of energy and affection. He's looking for an experienced owner who
+            can provide the love, structure, and training he needs. If you're ready for a loyal and joyful companion,
+            adopt Manny and embark on a lifetime of love, loyalty, and unforgettable adventures!
+        </div>
+    </div>
+
+    <div id="buttons">
+        <button class="back"><a href="rehome.html">Back</a></button>
+        <button class="fav" onclick="addToFav()">Add to Favorites</button>
+    </div>
+
+    <footer id="footer">
+        <div id="footer-logo">
+            <img src="../assets/LogoIcons/Footer-Logo.png" alt="LOGO">
+        </div>
+
+        <div class="footer-container">
+            <div class="about-us-1">
+                <a>Abous us</a>
+                <a>FAQs</a>
+                <a>Mobile App Download</a>
+                <a>Partnership</a>
+                <a>Contact Us</a>
+            </div>
+
+            <div class="about-us-2">
+                <a>Adopt</a>
+                <a>Community</a>
+                <a>Donate</a>
+                <a>Get Involved</a>
+                <a>Articles</a>
+            </div>
+
+            <div class="find-us">
+                <h3>Find us on...</h3>
+                <br>
+                <div class="social-media">
+                    <img src="../assets/SocialMedia/Facebook - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/Twitter - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/Instagram - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/TikTok - Negative.png" alt="">
+                </div>
+            </div>
+
+            <div class="get-updates">
+                <label for="input-label">Join our family to get our latest udpdates.</label>
+                <div class="input-container">
+                    <input type="text" placeholder="Enter E-Mail" id="enter-email">
+                    <input type="submit" value="Sign up">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="../js/main.js"></script>
+
+</html>

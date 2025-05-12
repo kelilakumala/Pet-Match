@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet-Service</title>
+    <link rel="stylesheet" href="../assets/css/pet-service.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div>
+            <a href="../pages/index.html"><img src="../assets/LogoIcons/logo.png" alt="LOGO"></a>
+        </div>
+        <div id="navbar-container">
+            <a href="../pages/index.html">Home</a>
+            <a href="../pages/article.html">Articles</a>
+            <a href="../pages/product-page.html">Products</a>
+            <a href="../pages/community.html">Community</a>
+            <a id="nav-profile" href="../pages/login.html">Login</a>
+        </div>
+    </nav>
+
+    <section id="shelter">
+        <div id="container" class="styling">
+            <p>Search for vets, Pet Hotels, or Shelters based on location</p>
+            <div class="input-button">
+                <select class="location button-sizing" name="option">
+                    <option value="" disabled selected>Location; ex: Alam Sutera</option>
+                    <option value="1">Jakarta</option>
+                    <option value="2">Tangerang</option>
+                    <option value="3">Bandung</option>
+                    <option value="4">Aceh</option>
+                    <option value="5">Papua</option>
+                </select>
+                <input class="button-sizing" id="location-name" type="text" name="Place Name"
+                    placeholder="Organization or group name">
+            </div>
+            <div class="input-button">
+                <select class="button-sizing" id="filter" name="filter">
+                    <option value="" disabled selected>Filter by Category</option>
+                    <option value="1">Vet</option>
+                    <option value="2">Shelter</option>
+                    <option value="3">Pet hotel</option>
+                </select>
+                <div class="here-button">
+                    <p>Search</p>
+                </div>
+            </div>
+
+            <div class="services">
+                <div class="side">
+                    <p>Organization</p>
+                    <p class="margin-left">Category</p>
+                    <p class="margin-left">Location</p>
+                    <p>Contact</p>
+                </div>
+                <div class="scrollable-div" id="shelter-scroll">
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Faulkner Group</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Alam Sutera</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8114589305</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Fauna Group</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Bekasi</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8114589305</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Shinning Group</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Jakarta Utara</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8114589305</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Marquez-Logan</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Cengkareng</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8114589305</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Franco-Lane</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Aceh</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8114589305</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Maldonado Inc</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Manado</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8114589305</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Paws Haven</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Surabaya</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8112345678</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Harmony Shelter</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Bandung</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8123456789</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Paw Sanctuary</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Yogyakarta</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8134567890</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Animal Haven</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Semarang</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8145678901</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Whiskers Refuge</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Medan</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8156789012</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Safe Haven</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Makassar</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8167890123</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Love Paws Shelter</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Palembang</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8178901234</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>City Strays Rescue</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Pekanbaru</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8189012345</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Animalo Shelter</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Padang</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8190123456</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Paws Rescue</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Shelter</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Bali</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8191234567</h4>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="scrollable-div" id="vet-scroll">
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Paw Care Clinic</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Jakarta</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8234567890</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Furry Friends Vet</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Surabaya</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8245678901</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Pet Health Center</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Bandung</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8256789012</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Animal Care Clinic</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Yogyakarta</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8267890123</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Pet Wess Hospital</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Semarang</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8278901234</h4>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Swift Vets</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Surabaya</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8112345678</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Paws Care</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Bandung</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8123456789</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Friendly Vets</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Yogyakarta</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8134567890</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Careful Paws</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Semarang</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8145678901</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Pet Clinic</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Medan</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8156789012</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Animal Wellness</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Makassar</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8167890123</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Cat Care</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Vets</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Denpasar</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8178901234</h4>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="scrollable-div" id="hotel-scroll">
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Furry Stay</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Surabaya</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8112345678</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Paws Inn</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Bandung</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8123456789</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Cozy Kennel</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Yogyakarta</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8134567890</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Pampered Paws</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Semarang</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8145678901</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Happy Tails</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Medan</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8156789012</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Purrfect Lodge</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Makassar</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8167890123</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Dreamy Retreat</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Denpasar</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8178901234</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Whisker's Haven</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Jakarta</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8189012345</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Paw Palace</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Surabaya</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8190123456</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Cozy Cattery</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Bandung</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8201234567</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Tail Wag Inn</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Yogyakarta</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8212345678</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="inline-text">
+                        <div class="org test">
+                            <h4>Paw Prints Resort</h4>
+                        </div>
+                        <div class="cate test">
+                            <h4>Pet Hotel</h4>
+                        </div>
+                        <div class="loc test">
+                            <h4>Semarang</h4>
+                        </div>
+                        <div class="cont test">
+                            <h4>+62 8223456789</h4>
+                        </div>
+                    </div>
+                    <hr>
+
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+
+
+        </div>
+        <div id="article-container">
+            <div class="articles styling">
+                <img src="../assets/PetServices/petcafe.png" alt="">
+                <p>Articles related to vet, pet shelter, and pet hotel</p>
+                <div class="here-button">
+                    <p>Find out here</p>
+                </div>
+            </div>
+            <div class="chat-prof styling">
+                <p>Chat with professional veterinarian using our pet care services.</p>
+                <div class="here-button">
+                    <p>Here!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div id="footer-logo">
+            <img src="../assets/LogoIcons/Footer-Logo.png" alt="LOGO">
+        </div>
+
+        <div class="footer-container">
+            <div class="about-us-1">
+                <a>Abous us</a>
+                <a>FAQs</a>
+                <a>Mobile App Download</a>
+                <a>Partnership</a>
+                <a>Contact Us</a>
+            </div>
+
+            <div class="about-us-2">
+                <a>Adopt</a>
+                <a>Community</a>
+                <a>Donate</a>
+                <a>Get Involved</a>
+                <a>Articles</a>
+            </div>
+
+            <div class="find-us">
+                <h3>Find us on...</h3>
+                <br>
+                <div class="social-media">
+                    <img src="../assets/SocialMedia/Facebook - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/Twitter - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/Instagram - Negative.png" alt="">
+                    <img src="../assets/SocialMedia/TikTok - Negative.png" alt="">
+                </div>
+            </div>
+
+            <div class="get-updates">
+                <label for="input-label">Join our family to get our latest udpdates.</label>
+                <div class="input-container">
+                    <input type="text" placeholder="Enter E-Mail" id="enter-email">
+                    <input type="submit" value="Sign up">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="../js/main.js"></script>
+<script src="../js/service.js"></script>
+
+</html>
